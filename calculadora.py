@@ -160,7 +160,7 @@ class Calculadora:
     # Operadores
     def op_punto(self):
         n = len(self.datos) - 1
-        if n > 0:
+        if n >= 0:
             if self.datos[n] in self.operadores:
                 pass
             else:
@@ -169,7 +169,7 @@ class Calculadora:
 
     def op_mas(self):
         n = len(self.datos) - 1
-        if n > 0:
+        if n >= 0:
             if self.datos[n] in self.operadores:
                 pass
             else:
@@ -178,7 +178,7 @@ class Calculadora:
 
     def op_menos(self):
         n = len(self.datos) - 1
-        if n > 0:
+        if n >= 0:
             if self.datos[n] in self.operadores:
                 pass
             else:
@@ -187,7 +187,7 @@ class Calculadora:
 
     def op_multiplicar(self):
         n = len(self.datos) - 1
-        if n > 0:
+        if n >= 0:
             if self.datos[n] in self.operadores:
                 pass
             else:
@@ -196,7 +196,7 @@ class Calculadora:
 
     def op_dividir(self):
         n = len(self.datos) - 1
-        if n > 0:
+        if n >= 0:
             if self.datos[n] in self.operadores:
                 pass
             else:
@@ -205,7 +205,7 @@ class Calculadora:
 
     def op_potencia(self):
         n = len(self.datos) - 1
-        if n > 0:
+        if n >= 0:
             if self.datos[n] in self.operadores:
                 pass
             else:
@@ -214,7 +214,7 @@ class Calculadora:
 
     def op_igual(self):
         n = len(self.datos) - 1
-        if n > 0:
+        if n >= 0:
             if self.datos[n] in self.operadores:
                 pass
             else:
